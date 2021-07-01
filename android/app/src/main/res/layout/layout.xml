@@ -31,7 +31,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:id="@+id/__SPECIFIC_ID_1__"
+                android:id="@+id/___SPECIFIC_ID_1___"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -39,7 +39,7 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginBottom="8dp"
                 android:scrollbars="none"
-                android:text="__TEXT_1__"
+                android:text="___TEXT_1___"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
                 android:textColor="@color/white"
                 tools:text="My field 1" />
@@ -47,7 +47,7 @@
         </androidx.cardview.widget.CardView>
 
         <TextView
-            android:id="@+id/__SPECIFIC_ID_2__"
+            android:id="@+id/___SPECIFIC_ID_2___"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -56,7 +56,7 @@
             android:layout_marginBottom="8dp"
             android:layout_weight=".30"
             android:scrollbars="none"
-            android:text="__TEXT_2__"
+            android:text="___TEXT_2___"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
             android:textColor="?colorOnSurface"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -78,12 +78,12 @@
             android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
             android:textColor="?colorOnSurface"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/__SPECIFIC_ID_3__"
-            app:layout_constraintStart_toEndOf="@+id/__SPECIFIC_ID_2__"
+            app:layout_constraintEnd_toStartOf="@id/___SPECIFIC_ID_3___"
+            app:layout_constraintStart_toEndOf="@+id/___SPECIFIC_ID_2___"
             app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
         <TextView
-            android:id="@+id/__SPECIFIC_ID_3__"
+            android:id="@+id/___SPECIFIC_ID_3___"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="6dp"
@@ -92,18 +92,18 @@
             android:layout_marginBottom="8dp"
             android:layout_weight=".30"
             android:scrollbars="none"
-            android:text="__TEXT_3__"
+            android:text="___TEXT_3___"
             android:textAlignment="viewStart"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
             android:textColor="?colorOnSurface"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/__SPECIFIC_ID_4__"
+            app:layout_constraintEnd_toStartOf="@id/___SPECIFIC_ID_4___"
             app:layout_constraintStart_toEndOf="@+id/x_multi"
             app:layout_constraintTop_toBottomOf="@+id/cardView"
             tools:text="My field 3" />
 
         <TextView
-            android:id="@+id/__SPECIFIC_ID_4__"
+            android:id="@+id/___SPECIFIC_ID_4___"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="6dp"
@@ -112,7 +112,7 @@
             android:layout_marginBottom="8dp"
             android:layout_weight=".30"
             android:scrollbars="none"
-            android:text="__TEXT_4__"
+            android:text="___TEXT_4___"
             android:textAlignment="viewEnd"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
             android:textColor="?colorPrimary"
