@@ -41,7 +41,7 @@
                 android:scrollbars="none"
                 android:text="___TEXT_1___"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
-                android:textColor="@color/white"
+                android:textColor="?colorOnPrimary"
                 tools:text="My field 1" />
 
         </androidx.cardview.widget.CardView>
