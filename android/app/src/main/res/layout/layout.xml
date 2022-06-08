@@ -14,7 +14,9 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="8dp">
 
         <!-- START EDITING HERE -->
 
@@ -48,7 +50,7 @@
 
         <TextView
             android:id="@+id/___SPECIFIC_ID_2___"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
@@ -84,7 +86,7 @@
 
         <TextView
             android:id="@+id/___SPECIFIC_ID_3___"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="6dp"
             android:layout_marginTop="8dp"
@@ -104,7 +106,7 @@
 
         <TextView
             android:id="@+id/___SPECIFIC_ID_4___"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="6dp"
             android:layout_marginTop="8dp"
