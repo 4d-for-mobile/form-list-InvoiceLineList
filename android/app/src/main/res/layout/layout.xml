@@ -20,7 +20,7 @@
 
         <!-- START EDITING HERE -->
 
-        <androidx.cardview.widget.CardView
+        <com.google.android.material.card.MaterialCardView
             android:id="@+id/cardView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -42,11 +42,11 @@
                 android:layout_marginBottom="8dp"
                 android:scrollbars="none"
                 android:text="___TEXT_1___"
-                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
                 android:textColor="?colorOnPrimary"
                 tools:text="My field 1" />
 
-        </androidx.cardview.widget.CardView>
+        </com.google.android.material.card.MaterialCardView>
 
         <TextView
             android:id="@+id/___SPECIFIC_ID_2___"
@@ -59,7 +59,7 @@
             android:layout_weight=".30"
             android:scrollbars="none"
             android:text="___TEXT_2___"
-            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
             android:textColor="?colorOnSurface"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -77,7 +77,7 @@
             android:scrollbars="none"
             android:text="x"
             android:textAlignment="viewEnd"
-            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
             android:textColor="?colorOnSurface"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@id/___SPECIFIC_ID_3___"
@@ -96,7 +96,7 @@
             android:scrollbars="none"
             android:text="___TEXT_3___"
             android:textAlignment="viewStart"
-            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
             android:textColor="?colorOnSurface"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@id/___SPECIFIC_ID_4___"
@@ -116,7 +116,7 @@
             android:scrollbars="none"
             android:text="___TEXT_4___"
             android:textAlignment="viewEnd"
-            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
             android:textColor="?colorPrimary"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
